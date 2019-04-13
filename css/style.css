@@ -1,0 +1,85 @@
+
+							/* MOBILE DEVICE */
+
+h2, h3 {font-family: 'Oswald', sans-serif!important}
+
+
+body {font-family: 'Lato', sans-serif;}						/* HEADER - TOPO */			
+nav .logo-opovo {display: block;background: url(https://especiais.opovo.com.br/images/imgs/pabllovittar/sprite.png) no-repeat -10px -177px;width: 20px;height: 20px;margin-right: 0px;float: left;background-color: #1e98c9;}
+a {text-decoration: none;}
+.navbar {margin: 0!important}
+.content {font-family: 'Lato', sans-serif!important;border-radius: 0!important;margin-bottom: 5px!important; height: 25vh;}
+.nav-end {padding: 20px 0;background-color: #1e98c9;margin: 0px;display: inline-block;}
+.clearfix {display: block;}
+.clearfix { display: inline-block;background-color:#1e98c9;}
+.title{color: white; display: flex; justify-content: center; font-family: 'Source Sans Pro';  font-weight : bold;}
+.navbar-inverse {background-color: #1e98c9 !important; border-color: #1e98c9 !important; padding: 2px;}				/* CSS ITENS DO CONTEUDO  */
+.owl-carousel .item { height: auto; background: #1e98c9;}
+.owl-carousel .item.focus {background: white;border: 5px solid white;}
+/* CSS Items das propriedades */
+.owl-properties ul {flex-direction: row;list-style: none;display: flex;justify-content: center;padding: 0; margin-top: 10px;}	
+.owl-properties li {  display: inline-block;position: relative;
+    margin: 10px;
+    width: 14%;}
+.owl-content h2{text-align: center;background-color: #fff;margin-top: 10px;}
+.content {margin-top: 20px;font-size: 14px;width: 100%;border-radius: 5px 5px 5px 5px;box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.75);color: white;background-color: #1e98c9;padding: 20px;text-align: center;display: flex;align-items: center;justify-content: center;margin-bottom: 5%;}
+.owl-item .item{border-radius: 50%;width: 200px;height: 200px;overflow: hidden;}
+.owl-stage{margin-top: 20px;}
+.owl-nav{display: none;}
+.owl-stage-outer{background-color: #1e98c9;padding: 10px 15px 25px 25px; margin-top: 30px;}
+.navbar-header{background-color: #1e98c9;}
+.container{background-color: #1e98c9;border-color: #1e98c9;}
+
+.owl-properties li:after {
+	content: "A FAVOR";
+    font-size: 9px;
+    text-align: center;
+    color: #4CAF50;
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.owl-properties li:before {
+	    content: "CONTRA";
+    font-size: 10px;
+    text-align: center;
+    color: #F44336;
+    position: absolute;
+    display: none;
+    bottom: -21%;
+    font-weight: bold;
+   
+}
+
+.owl-properties li.desativado:before {display: block;}
+.owl-properties li.ativado:after {display: block;}
+.owl-properties li p{margin-bottom: 10%; font-size: 10px;text-align: center; font-weight: bold;}
+
+footer{background-color: #1e98c9; margin-top: 30px;}
+footer .logo-opovo {display: block;background: url(https://especiais.opovo.com.br/images/imgs/pabllovittar/sprite.png) no-repeat -10px -177px;width: 158px;height: 20px; margin-left: 30px;margin-right: 0px;float: left;background-color: #1e98c9;}
+a {text-decoration: none;}
+.footer-end {padding: 20px 0; margin: 0px;  }
+
+
+					/* TABLETS DEVICE */
+@media screen and (min-width: 768px){
+    .owl-properties li:after{margin-top: 10px; left: 25px; font-size: 11px;}
+    .owl-properties li:before{bottom: -19%; left: 25px; font-size: 11px;}
+   .dilma-txt{margin: -1px;}
+    .content {width: 60%;margin-left: 22%;padding: 20px;margin-bottom: 5%; height: 25vh;}
+    nav .logo-opovo {display: block;background: url(https://especiais.opovo.com.br/images/imgs/pabllovittar/sprite.png) no-repeat -10px -177px;width: 160px;height: 20px;margin-right: 0px;float: left;background-color: #1e98c9;}		
+ }	
+    						/* DESKTOP DEVICE */
+@media screen and (min-width: 992px){		
+.owl-properties li {width:15%;padding: 1%;}
+.owl-properties li p{position: relative; right: 12px; font-size: 12px;}
+.owl-properties li:before{bottom:  -20px; left: 35px; }
+.owl-properties li:after{left: 35px; margin-top: 17px; ;}}	
+@media screen and (min-width: 1200px){
+    .owl-properties li p{right: 28px; font-size: 13px;}
+}
+
+							
+
